@@ -1,5 +1,5 @@
 body {
-   
+   font-family: 'Nobile', sans-serif;
 }
 
 
@@ -11,6 +11,7 @@ body {
     padding-left: 0;
     padding-right: 0;
     z-index: 1;
+    background-color: white;
 }
 
 
@@ -18,17 +19,16 @@ body {
 
 
 .landing-page {
-    height:100vh;
-    background-image:url(../MEDIA/landing-page-image.jpg)no-repeat bottom right fixed;
-   -webkit-background-size: cover;
+    height: 100vh;
+    background: url(../MEDIA/landing-page-image.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
     display: flex;
-    align-items:center;
-    justify-content:center;
-    position:relative;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 /*----------NAVBAR----------*/
@@ -56,3 +56,24 @@ body {
     border-radius:23px;
   
   }
+
+
+  /******Media******/
+
+  @media (max-width: 576px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+        
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+         background-color: grey;
+         opacity: 0.3;
+        
+       
+    }
+    
+}
