@@ -1,0 +1,58 @@
+body {
+   
+}
+
+
+/*----------Navbar Container----------*/
+.navbar-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+
+/*----------LANDING PAGE----------*/
+
+
+.landing-page {
+    height:100vh;
+    background-image:url(../MEDIA/landing-page-image.jpg)no-repeat bottom right fixed;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+}
+
+/*----------NAVBAR----------*/
+.brand--style {
+    font-weight: bold;
+    color:#FEB633 !important;
+    font-size: 2.5rem;
+    font-family: serif;
+}
+
+.item--style {
+    font-weight: bold;
+    color:#363636;
+}
+
+.btn--yellow {
+    color:white;
+    background-color:#FEB633;
+    border-color:#FEB633;
+
+}
+
+.btn--cta {
+    font-weight: bold;
+    border-radius:23px;
+  
+  }
