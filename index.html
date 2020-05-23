@@ -31,10 +31,12 @@
 
   <body>
     <!--****Landing page*****-->
-
-    <header class="container-fluid navbar-container" id="home">
+     
+     
+    <header class="jumbotron-fluid  " id="home">
       <!--****Collapsible button*****-->
-      <nav class="navbar navbar-expand-sm navbar-light">
+      <div class="container-fluid navbar-container">
+      <nav class="navbar navbar-expand-lg navbar-light padding-140">
         <!--****Navbar Brand*****-->
         <a href="#home" class="navbar-brand brand--style">Emanuel.</a>
 
@@ -53,8 +55,7 @@
         <div class="collapse navbar-collapse" id="navbarDropdown"style>
           <ul class="navbar-nav ml-auto navbar--style">
             <li class="nav-item active ml-2">
-              <a class="nav-link" id="item--style" href="#home"
-                >Home<span class="sr-only">(current)</span></a
+              <a class="nav-link" id="item--style" href="#home">Home<span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item ml-2">
@@ -72,36 +73,103 @@
           </ul>
         </div>
 
-        <div class="d-none d-md-block">
+        <div class="d-none d-lg-block">
           <a
             class="nav-link btn btn--cta btn--yellow"
             href="assets/cv/cv-eblaga1.pdf"
             target="_blank"
-            >Download CV</a
-          >
+            >Download CV</a>
         </div>
-      </header>
-   
-     <div class="container-fluid landing-page">
+      
+     </nav>
+     </div>
+     
+     <div class="container-fluid landing-page padding-140">
 
-        <section class="container text-left">
+        <section class="container-fluid">
         <h2 class="Hello">Hello</h2>
-        <h1>I'm</h1> <h1 id="name">Emanuel Blaga</h1>
+        
+        <h1>I'm </h1> <h1 id="name">Emanuel Blaga</h1>
+        
         <h3>Full Stack Software Developer</h3>
-        <div class="container">
+        <hr>
+        <div class="container-fluid buttons-container">
             <div class="row">
               
                     <a class="nav-link btn btn--cta btn--yellow"href="assets/cv/cv-eblaga1.pdf" target="_blank">Download CV</a>
-                    <a href=""></a>
+                    
                     <a class="nav-link btn btn--cta btn--yellow--empty"href="assets/cv/cv-eblaga1.pdf" target="_blank">Hire Me</a>
                      
           </div>
         </div>
        </section>
+      </header>
      
-     </div>
-  
+      <!--****About me *****-->
+    
+    <div class="container-fluid padding-140" id="about">
 
+         <div class="row" id="about-row">
+           <div class="container-fluid d-md-none ">
+             <p class="my-intro-text">My Intro</p>
+             <h4><b>About Me</b></h4>
+           </div>
+            <div class="col-sm-6 about-me">
+              <span id="image"  role="img" arial-label="About me image">
+                <span id="image-inner">
+                </span>
+              </span> 
+             
+             </div>
+            <div class="col-sm-6 about--text d-none d-md-block">
+                <p class="d-none d-md-block my-intro-text">My Intro</p>
+                <h4 class="d-none d-md-block"><b>About Me</b></h4>
+                <p>I am an experienced automotive industry focused project manager currently.Currently transitioning into software development, I will graduate of Code Institute working with front-end and back-end framneworks</p>
+                <p>I specialise in HTML, CSS, JavaScript and Python langages, using Django and MongoDB frameworks, I am passionate about AI and machine learning. I enjoy working with the latest technologies available.</p>
+                <div class="row">
+                    <a href=""><i class="fas fa-envelope"></i>  blagem1@gmail.com</a>
+                    <a href=""><i class="fas fa-phone"></i> +1 23 456 783</a>
+                </div> 
+                <h5><b>My Interests</b></h5>
+                <div class="row">
+                    <a href=""><i class="fas fa-headphones-alt"></i>  Music</a>
+                    <a href=""><i class="fas fa-headphones-alt"></i>  Movie</a>
+                    <a href=""><i class="fas fa-camera-retro"></i>  Photography</a>
+                    <a href=""><i class="far fa-file-code"></i>  Code</a>
+                </div>
+            </div>
+         </div>
+
+    </div>
+    <div class="col-sm-6 about--text d-md-none">
+                <p class=" my-intro-text">My Intro</p>
+                <h4 class="]"><b>About Me</b></h4>
+                <p>I am an experienced automotive industry focused project manager currently.Currently transitioning into software development, I will graduate of Code Institute working with front-end and back-end framneworks</p>
+                <p>I specialise in HTML, CSS, JavaScript and Python langages, using Django and MongoDB frameworks, I am passionate about AI and machine learning. I enjoy working with the latest technologies available.</p>
+                <div class="row">
+                    <a href=""><i class="fas fa-envelope"></i>  blagem1@gmail.com</a>
+                    <a href=""><i class="fas fa-phone"></i> +1 23 456 783</a>
+                </div> 
+                <h5><b>My Interests</b></h5>
+                <div class="row">
+                    <a href=""><i class="fas fa-headphones-alt"></i>  Music</a>
+                    <a href=""><i class="fas fa-headphones-alt"></i>  Movie</a>
+                    <a href=""><i class="fas fa-camera-retro"></i>  Photography</a>
+                    <a href=""><i class="far fa-file-code"></i>  Code</a>
+                </div>
+            </div>
+         </div>
+
+     <!--****Skills*****-->
+    
+    <div class="container-fluid padding-140" id="skills">
+
+            <h4>Specialized in</h4>
+            <h3>My Best Skills</h3>
+
+    </div>
+    
+    
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
