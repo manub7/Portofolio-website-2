@@ -14,16 +14,27 @@ h1 {
   display: inline;
   font-weight: bold;
 }
+
+p {
+     margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
 #name {
   color: #feb633;
 }
 
-a {
-  padding: 15px 5px 10px 5px;
-  text-align: center;
+#about a {
+ 
   margin-left: 20px;
   margin-top: 5px;
   padding-top: 15px;
+
+}
+
+a {
+  
+  text-align: center;
   color: #363636;
 }
 
@@ -89,10 +100,14 @@ h3 {
   color: white;
   background-color: #feb633;
   border-color: #feb633;
+  margin-left:1%;
+  margin-top:1%;
 }
 .btn--yellow--empty {
   color: white;
   border-color: #feb633;
+  margin-left:1%;
+  margin-top:1%;
 }
 
 .btn--cta {
@@ -103,6 +118,7 @@ h3 {
   text-align: center;
   height: 3.81rem;
   width: 11.25rem;
+  
 }
 
 .buttons-container {
@@ -122,6 +138,10 @@ h5 {
 #about-row {
   padding-top: 10%;
   margin-bottom: 5%;
+}
+
+.contact-row, .interest-row {
+    margin: 0%;
 }
 
 #image {
@@ -147,8 +167,9 @@ h5 {
   color: #363636;
 }
 
-.my-intro-text {
+#about .my-intro-text {
   color: #feb633;
+  text-align: left;
   }
 
 .about--text {
@@ -168,10 +189,15 @@ h5 {
   background-color: #feb6332b;
   width: 100%;
   height:auto;
-  padding-top:10%;
-  padding-bottom: 10%;
+  padding-top:5%;
+  padding-bottom: 5%;
   text-align:center;
 }
+
+#skills .my-intro-text {
+  color: #feb633;
+  text-align: center;
+  }
 
 #skills h3{
 
@@ -180,27 +206,176 @@ h5 {
 }
 
 #skills-row{
-    text-align: center;
+   justify-content: center;
     display:inline-flex;
+    margin-top: 5%;
+    text-align: center;
 }
 
-.skill-col{
-    height:16em;
-    width: 16em; 
+.icon {
+    height:16.25em;
+    width: 16.25em; 
     background-color: white;
     text-align: center;
     display: inline-block;
-    padding-top:3.25em;
+    margin-bottom:0.5em;
     margin-left:0.5em;
-}    
+    border-radius: 8%;
+   }    
+
+.icon i {
+
+    line-height:1.5;
+    width: 115px;
+    font-size: 115px;
+     color: #feb633;
+}
+
+.icon img {
+
+    line-height:1.5;
+    width: 115px;
+    font-size: 115px;
+     color: #feb633;
+}
+
+.icon:hover {
+    background-color: #feb633;
+        }
+
+.icon:hover i {
+    color:white;
+}
+
+.icon:hover  img {
+    fill:white;
+}
+.icon:hover svg {
+    fill:white;
+}
+
+.icon:hover p {
+    color:white;
+}
+
+
+/******Work******/
+
+#work {
+
+  width: 100%;
+  height:auto;
+  padding-top:5%;
+  padding-bottom: 5%;
+  text-align:center;
+}
+
+#work .my-intro-text {
+  color: #feb633;
+  text-align: center;
+  }
+
+#work h3{
+
+     text-align: center;
+     color: #363636;
+}
+
+#work-row{
+   justify-content: center;
+   
+    margin-top: 1%;
+    text-align: center;
+}
+
+
+#work-col {
+    margin: 2.5%;
+}
+
+#work-col-wanderlust {
+
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+    margin-right:2.5%;
+    border-color: black;
+}
+
+.responsive {
+  max-width: 100%;;
+  height: auto;
+}
+
+#work-col {
+    margin: 2.5%;
+}
+
+
+
+.work-title1 {
+    text-align: left;
+    margin-top: 2.5%;
+    float: left;
+    clear: both;
+    font-weight: bold;
+}
+.work-title2 {
+    text-align: right;
+    margin-top: 2.5%;
+    color:#feb633;
+    
+    
+}
+
+#work-row p {
+    word-wrap: break-word;
+    width: 70%;
+    height: 48px;
+    text-align: left;
+    font-size: 16px;
+    
+}
+
+#work-col .row, #work-col-wanderlust .row {
+
+    margin-left: 0px;
+}
+
+
+
+#work-icons {
+  
+  text-align: right;
+}
+
+#work-icons a {
+    height: 38px;
+    width: 37px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 20%;    
+    padding-top:12px;
+
+}
+#work-icons a i {
+    color:white;
+    font-size:29px;
+    line-height: 1.5px;
+}
+
+#view-all-btn{
+    justify-content: center;
+    text-align: center;
+}
+
+
 
 /******Media******/
 
 @media (max-width: 768px) {
 
-.my-intro-text {
-    text-align: center;
-      }
+
 
   #about h3 {
     text-align: center;
@@ -210,19 +385,19 @@ h5 {
     padding-top: 5%;
     flex: 0 0 100%;
     max-width: 100%;
+    margin-bottom: 5%;
   }
 
   #about-me-logo {
     flex: 0 0 100%;
     max-width: 100%;
   }
+
 }
 
 @media (min-width: 576px), (max-width: 768px) {
 
-.my-intro-text {
-    text-align: center;
-      }
+
 
   #about-me-logo {
     flex: 0 0 100%;
@@ -281,6 +456,9 @@ h5 {
   h2 {
     padding-top: 1.7em;
   }
+  .my-intro-text {
+    text-align: center;
+      }
 }
 
 @media (min-width: 992px) {
@@ -290,7 +468,7 @@ h5 {
   }
   h3 {
     font-size: 2.1em;
-    margin-top: 10px;
+    margin-top: 5px;
   }
 
   h1 {
