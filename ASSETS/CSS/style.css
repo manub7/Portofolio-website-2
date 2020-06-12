@@ -17,6 +17,7 @@ h1 {
 p {
   margin-top: 0;
   margin-bottom: 0.5em;
+  font-size: 18px;
 }
 
 #name {
@@ -55,7 +56,7 @@ h3 {
 .landing-page {
   height: 100vh;
   background: url(../MEDIA/landing-page-background.png) no-repeat bottom right
-    fixed;
+    ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -108,8 +109,6 @@ h3 {
 .btn--cta {
   font-weight: bold;
   border-radius: 30px;
-  height: 61px;
-  width: 178px;
   text-align: center;
   height: 3.81rem;
   width: 11.25rem;
@@ -164,7 +163,7 @@ h5 {
 
 #about .my-intro-text {
   color: #feb633;
-  text-align: left;
+  text-align: center;
 }
 
 .about--text {
@@ -202,7 +201,7 @@ h5 {
 #skills-row {
   justify-content: center;
   display: inline-flex;
-  margin-top: 5%;
+  margin-top: 2%;
   text-align: center;
 }
 
@@ -338,7 +337,7 @@ h5 {
 }
 #work-icons a i {
   color: white;
-  font-size: 29px;
+  font-size: 26px;
   line-height: 1.5px;
 }
 
@@ -365,7 +364,7 @@ h5 {
   float: left;
   text-align: left;
   width: 100%;
-  padding: 2% 0% 0% 4%;
+  padding: 5% 0% 0% 4%;
 }
 
 #contact-me-text h3 {
@@ -376,7 +375,7 @@ h5 {
 
 #contact-me-text p {
   color: white;
-  font-size: 18px;
+  
 }
 
 .btn--white {
@@ -391,6 +390,7 @@ h5 {
   text-align: right;
   float: right;
   margin-top: 2%;
+  padding: 0;
   
  
 }
@@ -405,14 +405,17 @@ h5 {
 #contact-image {
 
   display:block;
+  max-height: 473.26px;
+  max-width: 708px;
   width: 100%;
   vertical-align: middle;
   font-size: 0;
   line-height: 0;
-  background-size: 100%;
+  background-size: contain;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-image: url(../MEDIA/contact-logo.svg);
+  float: right;
 }
 
 #contact-image-inner{
@@ -437,7 +440,10 @@ h5 {
 
   
 
- #contact-me-text p,#contact-me-text h3 {
+ p, 
+ h4, 
+ h5, 
+ h3 {
 
   font-size: 70%;
 }
@@ -447,6 +453,11 @@ h5 {
   height: auto;
 }
  ***/
+
+ .btn--cta {
+     height: 40%;
+     width: 40%;
+ }
 
 
 }
@@ -529,12 +540,10 @@ h5 {
   h2 {
     padding-top: 1.7em;
   }
-  .my-intro-text {
-    text-align: center;
-  }
+  
 
   #contact-me-text h3 p {
-     font-size: 50%;
+     font-size: 100%;
  }
 }
 
@@ -559,8 +568,8 @@ h5 {
   }
   /***About me***/
   #about-row {
-    padding-top: 12%;
-    padding-bottom: 5%;
+    padding-top: 8%;
+    padding-bottom: 4%;
   }
 
   #about-me-logo {
@@ -572,6 +581,10 @@ h5 {
     flex: 0 0 50%;
     max-width: 100%;
   }
+
+  #about .my-intro-text {
+    text-align: left;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -582,7 +595,31 @@ h5 {
 
 #contact-me-text {
   
-  padding: 10% 0% 0% 10%;
+  padding: 5% 0% 0% 10%;
 }
+
+ #work-col h4,
+  #work-col p,
+  #work-col-wanderlust h4,
+  #work-col-wanderlust p {
+    font-size: 100%;
+  }
+
+  
+
+ p, 
+ h4, 
+ h5, 
+ h3 {
+
+  font-size: 160%;
+}
+
+
+.btn--cta {
+     height: 120%; 
+     font-size: 140%;
+     border-radius: 50px;
+    }
 
 }
