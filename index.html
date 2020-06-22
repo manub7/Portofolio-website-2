@@ -65,18 +65,18 @@
               <a class="nav-link" id="item--style" href="#skills">Skills</a>
             </li>
             <li class="nav-item ml-2">
-              <a class="nav-link" id="item--style" href="#portofolio">Portofolio</a>
+              <a class="nav-link" id="item--style" href="#work">Portofolio</a>
             </li>
             <li class="nav-item ml-2">
-              <a class="nav-link" id="item--style" href="#contact">Contact</a>
+              <a class="nav-link" id="item--style" href="#contact-form">Contact</a>
             </li>
           </ul>
         </div>
 
         <div class="d-none d-lg-block">
           <a
-            class="nav-link btn btn--cta btn--yellow"
-            href="assets/cv/cv-eblaga1.pdf"
+            class="btn btn--cta btn--yellow"
+            href="ASSETS/CV/cv-eblaga1.pdf"
             target="_blank"
             >Download CV</a>
         </div>
@@ -96,9 +96,9 @@
         <div class="container-fluid buttons-container">
             <div class="row">
               
-                    <a class="nav-link btn btn--cta btn--yellow"href="assets/cv/cv-eblaga1.pdf" target="_blank">Download CV</a>
+                    <a class="btn btn--cta btn--yellow"href="ASSETS/CV/cv-eblaga1.pdf" target="_blank">Download CV</a>
                      
-                    <a class="nav-link btn btn--cta btn--yellow--empty"href="assets/cv/cv-eblaga1.pdf" target="_blank">Hire Me</a>
+                    <a class="btn btn--cta btn--yellow--empty"href="#inputYourName">Hire Me</a>
                      
           </div>
         </div>
@@ -106,7 +106,7 @@
       </header>
      
       <!--****About me *****-->
-    
+    <section id="about-section">
     <div class="container-fluid padding-140" id="about">
 
          <div class="row" id="about-row">
@@ -122,7 +122,7 @@
              </div>
             <div class="col-sm-6 about--text d-none d-md-block">
                 <p class="d-none d-lg-block my-intro-text">My Intro</p>
-                <h4 class="d-none d-lg-block"><b>About Me</b></h4>
+                <h3  id="about--me"><b>About Me</b></h3>
                 <p>I am an experienced automotive industry focused project manager currently.Currently transitioning into software development, I will graduate of Code Institute working with front-end and back-end framneworks</p>
                 <p>I specialise in HTML, CSS, JavaScript and Python langages, using Django and MongoDB frameworks, I am passionate about AI and machine learning. I enjoy working with the latest technologies available.</p>
                 <div class="row ">
@@ -142,7 +142,7 @@
     </div>
     <div class="col-sm-6 about--text--md d-md-none">
                 <p class=" my-intro-text d-none d-lg-block">My Intro</p>
-                <h4 class=" d-none d-lg-block"><b>About Me</b></h4>
+                <h3 class=" d-none d-lg-block"><b>About Me</b></h3>
                 <p>I am an experienced automotive industry focused project manager currently.Currently transitioning into software development, I will graduate of Code Institute working with front-end and back-end framneworks</p>
                 <p>I specialise in HTML, CSS, JavaScript and Python langages, using Django and MongoDB frameworks, I am passionate about AI and machine learning. I enjoy working with the latest technologies available.</p>
                 <div class="row contact-row">
@@ -158,31 +158,38 @@
                 </div>
             </div>
          </div>
-
+    </section>
      <!--****Skills*****-->
-    
+    <section id="skills-section">
     <div class="container-fluid " id="skills">
 
-            <p class=" my-intro-text">Specialized in</p>
-            <h3><b>My Best Skills</b></h3>
+            <p class=" center-text">Specialized in</p>
+            <h3 class="header3"><b>My Best Skills</b></h3>
             <div class="row" id="skills-row">
-
-                <a class="icon" >
-                    <i class="fab fa-html5"></i>
-                    <p><b>HTML</b></p>
+                <div class="col-auto">
+                     <a class="icon" >
+                        <i class="fab fa-html5"></i>
+                        <p><b>HTML</b></p>
                 </a>
+                </div>
+                <div class="col-auto">
                   <a class="icon" >
                     <i class="fab fa-css3-alt"></i>
                     <p><b>CSS</b></p>
                 </a>
+                </div>
+                <div class="col-auto">
                   <a class="icon">
                     <i class="fab fa-js"></i>
                     <p><b>JAVASCRIPT</b></p>
                 </a>
+                </div>
+                <div class="col-auto">
                   <a class="icon">
                     <i class="fab fa-python"></i>
                     <p><b>PYTHON</b></p>
                 </a>
+                </div>
 
                 <!--*****TO BE ADDED LATER ONCE I ACQUIRE THE SKILLS**-->
                 <!--**</a>
@@ -200,9 +207,9 @@
             </div>
 
     </div>
-
+    </section>
  <!--****Work*****-->
-
+<section id="work-section">
     <div class="container-fluid " id="work">
 
             <p class=" my-intro-text">My Portofolio</p>
@@ -283,13 +290,14 @@
 
             <div class="row" id="view-all-btn">
               
-                    <a class="nav-link btn btn--cta btn--yellow">View All</a>
+                    <a class=" btn btn--cta btn--yellow">View All</a>
 
           </div>
       
     </div>
+    </section>
     <!--****Contact me *****-->
-
+<section id="contact-banner-section">
     <div class="container-flex" id="contact-me-banner">
         
             <div class="row">
@@ -297,7 +305,7 @@
                     <h3>Have a Project on your Mind?</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, dicta. Aperiam voluptate distinctio, cum autem quod alias et in nulla molestias dignissimos beatae accusamus ex nesciunt neque quis officiis at!</p>
                      <div class="row">
-                        <a class="nav-link btn btn--cta btn--white">Contact Me</a>
+                        <a class=" btn btn--cta btn--white" href="#inputYourName">Contact Me</a>
                      </div>
                 </div>
 
@@ -315,20 +323,125 @@
             </div>
         
     </div>
-
+    </section>
     <!--****Contact me form *****-->
+    <section id="contact-form-section">
+    <div class="jumotron" id="contact-form">
 
-    <div class="container-flex" id="contact-form">
+        <div class="container">
 
-        <p class=" my-intro-text">Contact Me</p>
-            <h3><b>Get in Touch</b></h3>
+        <p class=" center-text">Contact Me</p>
+            <h3 class="header3">Get in Touch</h3>
 
-    
+
+
+
+        </div>
+        
+
+			<div class="container">
+				<div class="col-auto contact-form">
+				
+                    <form id="contact-form">
+						<div class="form-row align-items-center" id="name-email">
+							<div class="col">
+								<input type="text" class="form-control" id="inputYourName" name="Name" placeholder="Name" required>
+                            </div>
+
+                            <div class="col">
+								<input type="email" class="form-control" id="inputyouremail" name="Email" placeholder="Email" required>
+                            </div>
+							</div>
+
+							<div class="row-contact">
+								<div class="form-group">
+									<input type="text" class="form-control" id="inputyoursubject" name="Subject" placeholder="Subject" required>
+                                 </div>
+						   </div>
+
+							<div class="row-contact">
+									<div class="form-group">
+										<textarea class="form-control" rows="6" id="inputyourmessage" name="Message" placeholder="Message" required></textarea>
+									</div>
+						   </div>
+
+							<div class="row-contact">
+									<div class="form-group">
+										<button type="reset"  value= "reset" class="btn btn--cta btn--yellow" data-toggle="modal" data-target="#contactFormModal">Send</button>
+									</div>
+							</div>
+					
+
+				</div>
+            </form>
+		
+		</div>
+	
     
     </div>
 
 
 </div>
+</section>
+
+
+<footer>
+		<div class="container">
+
+            <div class="container" id="containerh3">
+                <h3 class="footerh3">Follow Me</h3>
+            </div>
+
+
+			<div class="row-foot">
+				<div class="col-xs-12 col-sm-12 icons">
+
+                    <a class="footer-icons" href="https://twitter.com/ManuBlaga" target="_blank">
+						<i class="fab fa-twitter alignment"></i>
+					</a>
+
+					<a class="footer-icons" href="https://www.linkedin.com/in/emanuel-blaga" target="_blank">
+						<i class="fab fa-linkedin-in alignment"></i>
+					</a>
+					<a class="footer-icons" href="https://www.github.com/manub7" target="_blank">
+						<i class="fab fa-github alignment"></i>
+					</a>
+					
+				</div>
+			</div>
+            <hr class="block-divider">
+            <div class="container">
+                <p>Emanuel Blaga | Copyright 2020 All rights reserved</p>
+            </div>
+		</div>
+
+	</footer>
+
+<!-----Modal------->
+
+<div class="modal fade" tabindex="-1" role="dialog" id='contactFormModal'>
+		<br><br><br><br><br>
+		<div class="modal-dialog" role="document">
+			<br><br><br>
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" style='text-align: right;' aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Contact Form</h4>
+				</div>
+				<div class="modal-body">
+					<p class='header'> About this contact form:</p>
+					<p>This contact form does not currently send messages or collect any personal information.
+						Furthermore, this site does not collect any personal data. Please consult the 
+                        <a class='privacy-policy' href="privacy-policy.html" target="_blank">privacy policy</a> for
+						more details.</p>
+
+					<div class="modal-footer">
+						<button class='btn btn-md btn-default' data-dismiss="modal">I Understand!</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
     
