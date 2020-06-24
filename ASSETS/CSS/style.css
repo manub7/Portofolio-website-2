@@ -210,6 +210,10 @@ h5 {
   text-align: center;
 }
 
+#skills-row .col-auto {
+    padding: 0;
+}
+
 .icon {
   height: 16.25em;
   width: 16.25em;
@@ -372,6 +376,7 @@ h5 {
   padding: 5% 0% 0% 4%;
 }
 
+
 #contact-me-text h3 {
   color: white;
   margin-bottom: 5%;
@@ -383,13 +388,22 @@ h5 {
   
 }
 
-#contact-me-banner .btn--white {
+
+
+.btn--white {
   color:#feb633;
   background-color: white;
   border-color: #white;
   margin-left: 0;
   margin-top: 1%;
 }
+
+.btn--white:focus {
+
+    color: #363636
+}
+
+
 
 #contact-me-logo {
   text-align: right;
@@ -523,9 +537,14 @@ footer {
 footer p {
 
     color: white;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: lighter;
+    margin-bottom: 0;
 
+}
+
+hr {
+    margin-bottom: 2px;
 }
 
 
@@ -725,13 +744,13 @@ p {
     font-size: 100%;
   }
 
-
+/**
   h3 {
     font-size: 2.5em;
     margin-top: 5px;
   }
 
-  
+  **/
 /**
  p, 
  h4, 
@@ -742,10 +761,5 @@ p {
 }
 **/
 
-.btn--cta {
-     height: 120%; 
-     font-size: 140%;
-     border-radius: 50px;
-    }
 
 }
