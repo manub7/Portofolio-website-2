@@ -1,65 +1,88 @@
-#Emanuel Blaga portofolio website#
-One or two paragraphs providing an overview of your project.
+# Emanuel Blaga Portofolio website
+Stream One Project: User-Centric Frontend Development - Code Institute.
 
-Essentially, this part is your sales pitch.
+This is my portfolio website to present to prospective employers. The portfolio highlights two projects that covers a range of technologies, as well as including a bit about myself, my coding skills, and a contact form. 
+I wanted to comunicate technology via a modern design prefering ilustrations and light spectrum colors ( Anything than comes from the variation of natural lights such as white, yellow , red, blue  to bridge  with my lighting engineer experience 
 
-#UX#
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+## Wireframe
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+Adobe XD was used to create the wireframe and style of this website. 
+### Desktop version
+![Desktop image](ASSETS/MEDIA/Desktop.png)
+### Mobile version
+![IphoneX image](ASSETS/MEDIA/IphoneX.png)
+ 
+ The PDF version can be found [here](ASSETS/MEDIA/Portofolio_website_project.pdf) 
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+# Features
 
-#Features#
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+This website has 5 main sections that includes 
 
-##Existing Features##
-###Feature 1 - allows users X to achieve Y, by having them fill out Z###
-...
+   1. A modern landing page containing basic information such as name and profession on a contrast background to remind of technology
+   2. A brief introduction about me along with my contact details and an ilustration that represents myself and is in harmony  with general theme of this website, 
+   3. A visual icons style presentation of my skills so far with more to add in the future benefiting from hover anymation in line with website colors, 
+   4. A section where I present my portofolio projects large visual icon style images along with project description and git and desktop icons for an easy access to the websites and the source code 
+   5. A contact form reset section with a modal to warn the users about collecting of personal data.  
+
+## Existing Features 
+### Feature 1 - allows users  to download my CV by clicking the download button
+### Feature 2 - allows users  to jump directly to the conact form by pressing Hire me/ Contact me button
+### Feature 3 - allows users  to open a new tab with my portofolio projects by clicking on the portofolio project picture or desctop icon 
+### Feature 4 - allows users  to view more portofolio projects by pressing the View All button ( to be developped in the future as I complete more portofolio projects)
+### Feature 5 - allows users  to fill in the contact form with their details and press the send button for a modal pop up that informs them about their data colection and asks to confirm they understand
+### Feature 6 - allows users  to open a new tab with my twitter/linkedin/github personal accounts by clicking on any of the footer icons
+
+
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-##Features Left to Implement##
-##Another feature idea##
-##Technologies Used##
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+##Features Left to implement
 
-##JQuery##
-The project uses JQuery to simplify DOM manipulation.
-#Testing#
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### Feature 4 - allows users  to view more portofolio projects by pressing the View All button ( to be developped in the future as I complete more portofolio projects)
+### Feature New - Add more portofolio projects 
+### Feature New - Add more skills to the list
+### Feature New - Make contact form functional and interactive by colecting data
+### Feature New - Add a privacy policy document
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-#Contact form:#
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+## Technologies
+HTML
+CSS
+Bootstrap (3.3.7)
+Features
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-#Deployment#
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+# Testing
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+If you try to submit the contact form with an invalid email address, there will be no error noting the invalid email address as this is a reset button for now to be developped in the future . Furthermore, the 'required' attribute is added to the 'name,' 'email,' and 'message' fields, but for now even if those fields are not filled in, the form will reset.
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+All links will open in a new tab using 'target="_blank"' and the CV will download to your default folder for downloads on click using the 'download' attribute. All links have been manually tested to ensure that they are pointing to the correct destination.
 
-#Credits#
-#Content#
-The text for section Y was copied from the Wikipedia article Z
-#Media#
-The photos used in this site were obtained from ...
-#Acknowledgements#
-I received inspiration for this project from X
+
+This site was tested across multiple browsers (Chrome, Safari, Internet Explorer) and on  mobile devices (iPhone 11Max) to ensure compatibility and responsiveness. The about me background images poses some chalanges particularly on samller screens wher it tends to move up in Z
+
+
+
+## Deployment
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
+
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone  https://manub7.github.io/Portofolio-website-2/ into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+
+### Media
+All photos were taken from Unsplash (https://unsplash.com/), a stock image library or ilustration created in Adobe XD and then converted into .svg or PNG format that belong to me. 
+All icons were taken from Font Awsome (https://fontawesome.com)
+
+
+# Credits
+
+Content
+All content in the "About Me and "Work" sections in this portfolio site were written by me.
+
+### Acknowledgements
+
+Colapsable hamburger menu with animation was found [here](https://mdbootstrap.com/docs/jquery/navigation/hamburger-menu/)
+
+
